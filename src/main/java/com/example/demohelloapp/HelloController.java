@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String index() {
-        return "Hello World from Spring Boot!";
+        return "welcome to spring boot app running on azure web app!";
     }
 }
